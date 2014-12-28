@@ -1,13 +1,16 @@
 /**
  * @file: main.css
  */
-
+.action { background: #444; color: #fff; padding: 26px 0 24px 0;}
+.action h2 { color: #fff; margin: 0; padding: 0; }
+.form-contact .contact { display: none; }
 header { background: url(/assets/images/bg.hero.jellybeans.jpg); }
 .hero { height: 500px; padding-top: 180px; }
 .hero, .hero h2 { color: #fff; text-align: center; font-weight: 500; }
 .navbar { background: #fff; border-bottom: 1px solid #999; padding-top: 30px; padding-bottom: 10px; opacity: 0.9; }
 .navbar ul { margin-top: -10px; }
 .navbar ul li { line-height: inherit; text-align: right; }
+.gumby-no-touch .navbar ul li:hover > a, .gumby-touch .navbar ul li.active > a { background: none; }
 .navbar ul li a { color: #333; font-weight: 600; text-shadow: none; }
-.navbar ul li a:hover { color: #469b81; }
+.navbar ul li a:hover { color: #469b81; background: none; }
 .row { max-width: 1280px; }

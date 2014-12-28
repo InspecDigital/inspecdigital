@@ -1,3 +1,13 @@
 /**
  * @file: main.css
  */
+
+header { background: url(/assets/images/bg.hero.jellybeans.jpg); }
+.hero { height: 500px; padding-top: 180px; }
+.hero, .hero h2 { color: #fff; text-align: center; font-weight: 500; }
+.navbar { background: #fff; border-bottom: 1px solid #999; padding-top: 30px; padding-bottom: 10px; opacity: 0.9; }
+.navbar ul { margin-top: -10px; }
+.navbar ul li { line-height: inherit; text-align: right; }
+.navbar ul li a { color: #333; font-weight: 600; text-shadow: none; }
+.navbar ul li a:hover { color: #469b81; }
+.row { max-width: 1280px; }

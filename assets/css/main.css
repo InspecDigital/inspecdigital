@@ -1,19 +1,30 @@
 /**
  * @file: main.css
  */
-.action { background: #444; color: #fff; padding: 26px 0 24px 0;}
-.action h2 { color: #fff; margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 {font-family: 'Questrial', sans-serif;}
+h1 { color: #477676; }
+.action { background: #539d81; color: #fff; padding: 26px 0 24px 0;}
+.action h2 { color: #eade41; margin: 0; padding: 0; }
+.btn.secondary, .skiplink.secondary { background: #479a80; }
+.btn.secondary:hover, .skiplink.secondary:hover { background: #81ccb5; }
+.case-study, .case-study h2 { color: #2d3234; }
+.contact-btn { background: #1b4e3e; }
 .form-contact .contact { display: none; }
-.footer { background: #444; color: #fff; margin-top: 100px; padding-top: 30px; padding-bottom: 30px; }
-.header { background: url(/assets/images/bg.hero.jellybeans.jpg); }
-.hero { height: 500px; padding-top: 180px; }
+.footer { background: #444; color: #fff; margin-top: 0px; padding-top: 50px; padding-bottom: 50px; }
+.footer h4 { color: #469b81; }
+.footer h5 { color: #fff; }
+.footer a { color: #ce4b72; }
+.header { background-image: url(/assets/images/bridge.jpg); background-repeat: no-repeat; background-position: top center; }
+.hero { background: rgba(0,0,0,0.5); height: 500px; padding-top: 180px; max-width: 1280px; }
 .hero, .hero h2 { color: #fff; text-align: center; font-weight: 500; }
+.hero h2 { font-size: 4em; }
 .navbar { background: #fff; border-bottom: 1px solid #999; padding-top: 30px; padding-bottom: 10px; opacity: 0.9; }
 .navbar ul { margin-top: -10px; }
 .navbar ul li { line-height: inherit; text-align: right; }
-.newsletter { background: #830103; color: #fff; padding: 40px 0 24px 0; margin-top: 30px; }
+.newsletter { background: #cd4c71; color: #fff; padding: 40px 0 24px 0; margin-top: 30px; }
 .newsletter h3 { color: #fff; margin: 0; padding: 0; }
 .gumby-no-touch .navbar ul li:hover > a, .gumby-touch .navbar ul li.active > a { background: none; }
-.navbar ul li a { color: #333; font-weight: 600; text-shadow: none; }
+.navbar ul li a { font-family: 'Questrial', sans-serif; color: #477676; font-size: 1.5em; font-weight: 600; text-shadow: none; }
 .navbar ul li a:hover { color: #469b81; background: none; }
 .row { max-width: 1280px; }
+.workspace-about { background: #b4dfd3; padding-top: 40px; padding-bottom: 50px; }

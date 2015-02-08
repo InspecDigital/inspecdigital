@@ -1,159 +1,175 @@
 /**
  * @file: main.css
  */
+
+body {
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Questrial', sans-serif;
+  font-family: 'Questrial', sans-serif;
 }
 
 h1 {
-    color: #477676;
+  color: #477676;
 }
 
 .action {
-    background: #539d81;
-    color: #fff;
-    padding: 26px 0 24px 0;
+  background: #539d81;
+  color: #fff;
+  padding: 26px 0 24px 0;
 }
 
 .action h2 {
-    color: #eade41;
-    margin: 0;
-    padding: 0;
+  color: #eade41;
+  margin: 0;
+  padding: 0;
 }
 
 .action p {
-    font-size: 1.25em;
-    padding-top: 10px;
+  font-size: 1.25em;
+  padding-top: 10px;
 }
 
 .btn.secondary, .skiplink.secondary {
-    background: #479a80;
-    margin-right: 60px;
+  background: #479a80;
 }
 
 .btn.secondary:hover, .skiplink.secondary:hover {
-    background: #81ccb5;
+  background: #81ccb5;
 }
 
 .case-study {
-    padding-top: 30px;
-    padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .case-study, .case-study h2 {
-    color: #2d3234;
+  color: #2d3234;
 }
 
 .contact-btn {
-    background: #1b4e3e;
+  background: #1b4e3e;
 }
 
 .form-contact .contact {
-    display: none;
+  display: none;
 }
 
 .footer {
-    background: #444;
-    color: #fff;
-    margin-top: 0px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  background: #444;
+  color: #fff;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer h4 {
-    color: #469b81;
+  color: #469b81;
 }
 
 .footer h5 {
-    color: #fff;
+  color: #fff;
 }
 
 .footer a {
-    color: #cd4c71;
-}
-
-.header {
-    background-image: url(/assets/images/bridge.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
+  color: #cd4c71;
 }
 
 .hero {
-    background: rgba(0,0,0,0.5);
-    height: 500px;
-    padding-top: 180px;
-    max-width: 1280px;
+  background-image: url(/assets/images/bridge.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding-top: 180px;
 }
 
-.hero, .hero h2 {
-    color: #fff;
-    text-align: center;
-    font-weight: 500;
+.tagline {
+  background: rgba(0,0,0,0.3);
+  font-weight: 500;
+  padding: 14px 0;
+  text-align: center;
 }
 
-.hero h2 {
-    font-size: 4em;
+.tagline h2 {
+  color: #fff;
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+.tagline h3 {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-    background: #fff;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    opacity: 1; }
+  background: #fff;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  opacity: 1;
+}
 
+.navbar a.toggle {
+  background: #539d81;
+  margin-top: 12px;
+}
 
-.navbar ul {
-    margin-top: -10px;
+.navbar ul.active {
+  background: #ccc;
+  margin-top: 50px;
 }
 
 .navbar ul li {
-    line-height: inherit;
-    text-align: right;
+  line-height: inherit;
+  text-align: right;
 }
 
 .newsletter {
-    background: #cd4c71;
-    color: #fff;
-    padding: 40px 0 24px 0;
-    margin-top: 30px;
+  background: #cd4c71;
+  color: #fff;
+  padding: 40px 0 24px 0;
+  margin-top: 30px;
 }
 
 .newsletter h3 {
-    color: #fff;
-    margin: 0;
-    padding: 0;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 .gumby-no-touch .navbar ul li:hover > a, .gumby-touch .navbar ul li.active > a {
-    background: none;
+  background: none;
 }
 
 .navbar ul li a {
-    font-family: 'Questrial', sans-serif;
-    color: #477676;
-    font-size: 1.5em;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    text-shadow: none;
+  font-family: 'Questrial', sans-serif;
+  color: #477676;
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-shadow: none;
 }
 
 .navbar ul li a:hover {
-    color: #469b81;
-    background: none;
+  color: #469b81;
+  background: none;
 }
 
 .row {
-    max-width: 1280px;
-    padding-left: 30px;
-    padding-right: 30px;
+  max-width: 1280px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .workspace-about {
-    background: #b4dfd3;
-    padding-top: 40px;
-    padding-bottom: 50px;
+  background: #b4dfd3;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .workspace-about h1 {
-    color: #1d4e3e;
+  color: #1d4e3e;
 }

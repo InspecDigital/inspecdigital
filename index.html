@@ -34,39 +34,31 @@
 	</head>
     <body>
 		<header class="header">
-			<div class="navbar metro nav-primary" id="nav-primary">
-				<div class="row">
-					<a class="toggle" gumby-trigger="#nav-primary > row > ul" href="#"><i class="icon-menu"></i></a>
-				  <h1 class="four columns logo">
-				    <a href="#">
-				      <img src="/assets/images/brand.png" gumby-retina />
-				    </a>
-				  </h1>
-					<ul class="eight columns">
-						<li>
-							<a href="#work">Our work</a>
-						</li>
-						<li>
-							<a href="#about">About Inspec</a>
-						</li>
-						<li>
-							<a href="#" class="switch" gumby-trigger="#modal1">Contact</a>
-						</li>
-                        <!-- <li>
-							<a href="#">
-								<span class="fa-stack fa-lg">
-								  <i class="fa fa-square-o fa-stack-2x"></i>
-								  <i class="fa fa-facebook fa-stack-1x"></i>
-								</span>
-							</a>
-						</li> -->
-					</ul>
-	 			</div>
+
+			<div class="row navbar metro nav-primary" id="nav-primary">
+				<a class="toggle" gumby-trigger="#nav-primary > ul" href="#"><i class="icon-menu"></i></a>
+			  <h1 class="four columns logo">
+			    <a href="#">
+			      <img src="/assets/images/brand.png" gumby-retina />
+			    </a>
+			  </h1>
+				<ul class="eight columns">
+					<li>
+						<a href="#work">Our work</a>
+					</li>
+					<li>
+						<a href="#about">About Inspec</a>
+					</li>
+					<li>
+						<a href="#" class="switch" gumby-trigger="#modal1">Contact</a>
+					</li>
+				</ul>
 			</div>
-			<div class="row hero">
-				<div class="centered eight columns">
+
+			<div class="hero">
+				<div class="tagline">
 					<h2>The future is tomorrow</h2>
-					<p>People use The Internet everyday</p>
+					<h3>People use the internet everyday</h3>
 				</div>
 			</div>
 		</header>
@@ -215,13 +207,12 @@
 							  	<label for="message">Message</label>
 							    <textarea class="input textarea" placeholder="Message" name="message" id="message"></textarea>
 							  </li>
+								<li class="text-right">
+									<div class="medium secondary btn" id="submit">
+										<a href="#">Send</a>
+									</div>
+								</li>
 							</ul>
-							<input type="text" class="input contact" placeholder="Contact info" name="contact" id="contact">
-							<div class="text-center">
-								<div class="medium secondary btn" id="submit">
-									<a href="#">Send</a>
-								</div>
-							</div>
 						</form>
 					</div>
 		    </div>

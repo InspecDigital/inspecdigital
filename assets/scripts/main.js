@@ -9,6 +9,12 @@
   }
  };
 
+ $(document).ready(function() {
+
+    var App = new AppCore();
+
+ });
+
 function AppCore() {
 
     'use strict';
@@ -46,5 +52,3 @@ function AppCore() {
   return this._construct(this);
 
 }
-
-var App = new AppCore();

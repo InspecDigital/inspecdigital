@@ -39,12 +39,20 @@ h1 {
 }
 
 .case-study {
-  padding-top: 30px;
+  padding-top: 5px;
   padding-bottom: 20px;
 }
 
 .case-study, .case-study h2 {
   color: #2d3234;
+}
+
+.case-study a {
+  color: #cd4c71;
+}
+
+.case-study a:hover {
+    color: #a12b2f;
 }
 
 .contact-btn {
@@ -53,6 +61,10 @@ h1 {
 
 .contact-btn:hover {
   background: #1d4e3e;
+}
+
+.copyright {
+    padding-top: 5em;
 }
 
 .form-contact .contact {
@@ -80,7 +92,7 @@ h1 {
 }
 
 .hero {
-  background-image: url(/assets/images/bridge2.jpg);
+  background-image: url(/assets/images/bridge3.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,22 +103,22 @@ h1 {
 .tagline {
   background: rgba(0,0,0,0.4);
   font-weight: 500;
-  padding: 14px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
 .tagline h2 {
   color: #fff;
-  font-size: 3em;
+  font-size: 2.666em;
   margin: 0;
   padding: 0;
 }
 
 .tagline h3 {
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.75em;
   margin: 0;
-  padding: 0;
+  padding: 10px 0 0 0;
 }
 
 .navbar {
@@ -116,12 +128,16 @@ h1 {
   opacity: 1;
 }
 
+.navbar .logo a img {
+    max-height: 88%;
+}
+
 .navbar a.toggle {
   background: #539d81;
   margin-top: 12px;
 }
 
-.navbar a.toggle:hover, .navbar a.toggle:focus {
+.navbar a.toggle, .navbar a.toggle:active, .navbar a.toggle:hover, .navbar a.toggle:focus {
     background: #306756;
 }
 
@@ -154,7 +170,7 @@ h1 {
 }
 
 .newsletter h3 {
-  color: #fff;
+  color: #eade41;
   margin: 0;
   padding: 0;
 }
@@ -184,20 +200,34 @@ h1 {
 }
 
 .workspace-about {
-  background: #b4dfd3;
+  background: #d0eee6;
   padding-top: 40px;
   padding-bottom: 50px;
 }
 
 .workspace-about h1 {
   color: #1d4e3e;
+  padding-bottom: 0.666em;
 }
 
 .workspace-about ul li, .workspace-about p {
   font-size: 1.25em;
   line-height: 1.5em;
+  padding-bottom: 0.666em;
 }
 
 .workspace-about a {
   color: #cd4c71;
+}
+
+.workspace-about a:hover {
+    color: #a12b2f;
+}
+
+.workspace-work {
+    padding-top: 3em;
+}
+
+.workspace-work .valign:before {
+    height: 50px;
 }

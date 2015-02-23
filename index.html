@@ -207,7 +207,7 @@
         <div class="row">
           <div class="ten columns centered">
             <h3>What's your situation?</h3>
-            <form method="post" id="form-contact" name="form-contact" class="form-contact">
+            <form method="post" id="contact-form" name="contact-form" class="contact-form">
               <ul>
                 <li class="field">
                   <label for="name">Name</label>
@@ -217,17 +217,24 @@
                   <label for="email">Email</label>
                   <input class="input" type="email" placeholder="Email" name="email" id="email" />
                 </li>
+                <li class="field nospam">
+                  <label for="url">Current URL</label>
+                  <input class="input" type="text" placeholder="URL" name="url" id="url" />
+                </li>
                 <li class="field">
                   <label for="message">Message</label>
                   <textarea class="input textarea" placeholder="Message" name="message" id="message"></textarea>
                 </li>
                 <li class="text-right">
-                  <div class="medium secondary btn" id="submit">
+                  <div class="medium secondary btn submit" id="submit">
                     <a href="#">Send</a>
                   </div>
                 </li>
               </ul>
             </form>
+            <p class=".contact-result">
+              Thank you! We've got your message and will be in touch in a day or so to discuss your situation.
+            </p>
           </div>
         </div>
       </div>

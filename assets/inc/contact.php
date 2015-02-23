@@ -18,12 +18,9 @@ if(isset($_POST['url']) && $_POST['url'] === '') {
   $headers = 'From: ';
   $headers .= filter_var($from, FILTER_VALIDATE_EMAIL) ? $from : $to;
 
-  $sent = mail($to, $subject, $body, $headers);
-}
-else {
-  $sent = true;
+  mail($to, $subject, $body, $headers);
 }
 
-print_r($sent);
+print 'Thank you, your message has been sent.';
 
 ?>

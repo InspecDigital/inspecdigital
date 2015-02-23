@@ -63,6 +63,12 @@ h1 {
   background: #1d4e3e;
 }
 
+.contact-result {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+}
+
 .copyright {
     padding-top: 5em;
 }
@@ -98,6 +104,10 @@ h1 {
   background-size: cover;
   height: 500px;
   padding-top: 180px;
+}
+
+.nospam {
+  display: none;
 }
 
 .tagline {

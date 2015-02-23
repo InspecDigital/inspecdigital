@@ -3,6 +3,12 @@
  */
 
  var config = {
+  contactForm : {
+    form : $('.contact-form'),
+    result : $('.contact-result'),
+    submitSelector : '.submit',
+    url : '/assets/inc/contact.php'
+  },
   navbar : {
     link : $('#nav-primary').find('a'),
     icon : 'i'
@@ -13,6 +19,11 @@
 
     var App = new AppCore();
 
+    App.navbar();
+    App.contactForm();
+
+    return true;
+
  });
 
 function AppCore() {
@@ -21,11 +32,31 @@ function AppCore() {
 
     this._construct = function(self) {
 
-      self.navbar();
+      return self;
+
+    };
+
+    this.contactForm = function(options) {
+
+      var _options = config.contactForm;
+      $.extend(_options, options);
+
+      _options.form.find(_options.submitSelector).off('click').on('click', function(e) {
+        e.preventDefault();
+        $.ajax({
+          url : _options.url,
+          type : 'POST',
+          data : _options.form.serialize(),
+          complete : function(result) {
+            _options.form.fadeOut();
+            _options.result.fadeIn();
+          }
+        });
+      });
 
       return self;
 
-    }
+    };
 
     this.navbar = function(options) {
 
@@ -47,7 +78,7 @@ function AppCore() {
 
       return this;
 
-    }
+    };
 
   return this._construct(this);
 

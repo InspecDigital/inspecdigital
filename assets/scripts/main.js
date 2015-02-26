@@ -5,7 +5,7 @@
  var config = {
   contactForm : {
     form : $('.contact-form'),
-    result : $('.contact-result'),
+    result : $('.contact-form-results-row'),
     submitSelector : '.submit',
     url : '/assets/inc/contact.php'
   },
@@ -48,6 +48,7 @@ function AppCore() {
           type : 'POST',
           data : _options.form.serialize(),
           complete : function(result) {
+            console.log(result);
             _options.form.fadeOut();
             _options.result.fadeIn();
           }

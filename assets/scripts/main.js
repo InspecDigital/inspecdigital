@@ -48,7 +48,6 @@ function AppCore() {
           type : 'POST',
           data : _options.form.serialize(),
           complete : function(result) {
-            console.log(result);
             _options.form.fadeOut();
             _options.result.fadeIn();
           }

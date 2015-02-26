@@ -9,11 +9,11 @@ if(isset($_POST['url']) && $_POST['url'] === '') {
   $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
   $url = filter_var($_POST['url'], FILTER_SANITIZE_URL);
 
-  $body .= 'A customer has sent you a message:';
-  $body .= 'Name: ' . $name;
-  $body .= 'E-Mail: ' . $from;
-  $body .= 'Message: ' . $message;
-  $body .= 'URL: ' . $url;
+  $body .= 'A customer has sent you a message:' . "\n";
+  $body .= 'Name: ' . $name . "\n";
+  $body .= 'E-Mail: ' . $from . "\n";
+  $body .= 'Message: ' . $message . "\n";
+  $body .= 'URL: ' . $url . "\n";
 
   $headers = 'From: ';
   $headers .= filter_var($from, FILTER_VALIDATE_EMAIL) ? $from : $to;

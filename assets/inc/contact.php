@@ -1,7 +1,8 @@
 <?php
 
-$to = 'art@inspecdigital.org';
+$to = 'ashleyjackson@inspecdigital.org, tony@inspecdigital.org, rick@inspecdigital.org';
 $subject = 'Inspec Digital contact form submission';
+$ret = 'Thank you, your message has been sent.';
 
 if(isset($_POST['url']) && $_POST['url'] === '') {
   $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
@@ -15,10 +16,10 @@ if(isset($_POST['url']) && $_POST['url'] === '') {
   $body .= 'Message: ' . $message . "\n";
   $body .= 'URL: ' . $url . "\n";
 
-  $headers = 'From: ';
-  $headers .= filter_var($from, FILTER_VALIDATE_EMAIL) ? $from : $to;
+  $headers = 'From: tony@inspecdigital.org';
 
-  mail($to, $subject, $body, $headers);
+  $resp = mail($to, $subject, $body, $headers, '-ftony@inspecdigital.org');
+  if(!$resp) { $ret = $resp; }
 }
 
 print 'Thank you, your message has been sent.';

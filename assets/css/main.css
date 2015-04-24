@@ -205,6 +205,12 @@ h1 {
   background: none;
 }
 
+.press-release {
+  background-color: #f4e3b2;
+  padding: 60px 0;
+
+}
+
 .row {
   max-width: 1280px;
   padding-left: 30px;

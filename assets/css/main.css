@@ -112,27 +112,6 @@ h1 {
   display: none;
 }
 
-.tagline {
-  background: rgba(0,0,0,0.4);
-  font-weight: 500;
-  padding: 20px 0;
-  text-align: center;
-}
-
-.tagline h2 {
-  color: #fff;
-  font-size: 2.666em;
-  margin: 0;
-  padding: 0;
-}
-
-.tagline h3 {
-  color: #fff;
-  font-size: 1.75em;
-  margin: 0;
-  padding: 10px 0 0 0;
-}
-
 .navbar {
   background: #fff;
   padding-top: 30px;
@@ -150,7 +129,7 @@ h1 {
 }
 
 .navbar a.toggle, .navbar a.toggle:active, .navbar a.toggle:hover, .navbar a.toggle:focus {
-    background: #306756;
+    background: #81ccb5;
 }
 
 .navbar a i {
@@ -217,6 +196,27 @@ h1 {
   padding-right: 30px;
 }
 
+.tagline {
+  background: rgba(0,0,0,0.4);
+  font-weight: 500;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.tagline h2 {
+  color: #fff;
+  font-size: 3.666em;
+  margin: 0;
+  padding: 0;
+}
+
+.tagline h3 {
+  color: #fff;
+  font-size: 2em;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
 .workspace-about {
   background: #d0eee6;
   padding-top: 40px;
@@ -248,4 +248,36 @@ h1 {
 
 .workspace-work .valign:before {
     height: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  i.fa.fa-square::before {
+    visibility: hidden;
+  }
+
+  .hero {
+    padding-top: 40%;
+  }
+
+  .navbar a i {
+  color: #fff;
+  font-size: 0.666em;
+  visibility: inherit;
+  }
+
+  .tagline {
+    padding: 20px 8px;
+  }
+
+  .tagline h2 {
+    font-size: 2.2em;
+  }
+
+  .tagline h3 {
+  font-size: 1.4em;
+  }
+
+  }
+
 }

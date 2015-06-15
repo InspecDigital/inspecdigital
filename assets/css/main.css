@@ -27,11 +27,12 @@ h1 {
 
 .action p {
   font-size: 1.35em;
-  padding-top: 10px;
+  padding-top: 6px;
 }
 
 .btn.secondary, .skiplink.secondary {
   background: #306756;
+  border-radius: 6px;
 }
 
 .btn.secondary:hover, .skiplink.secondary:hover {
@@ -57,6 +58,7 @@ h1 {
 
 .contact-btn {
   background: #306756;
+  border-radius: 6px;
 }
 
 .contact-btn:hover {
@@ -197,7 +199,7 @@ h1 {
 }
 
 .tagline {
-  background: rgba(0,0,0,0.4);
+  background: rgba(29,78,62,0.666);
   font-weight: 500;
   padding: 20px 0;
   text-align: center;
@@ -252,6 +254,14 @@ h1 {
 
 @media only screen and (max-width: 768px) {
 
+  .action p {
+    text-align: center;
+  }
+
+  #mce-submit {
+    font-size: 84%;
+  }
+
   i.fa.fa-square::before {
     visibility: hidden;
   }
@@ -264,6 +274,10 @@ h1 {
   color: #fff;
   font-size: 0.666em;
   visibility: inherit;
+  }
+
+  .prepend, .append {
+    padding-top: 6%;
   }
 
   .tagline {

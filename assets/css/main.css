@@ -57,12 +57,12 @@ h1 {
 }
 
 .contact-btn {
-  background: #306756;
+  background: #3e596c;
   border-radius: 6px;
 }
 
 .contact-btn:hover {
-  background: #1d4e3e;
+  background: #2d3234;
 }
 
 .contact-form-results-row {
@@ -102,7 +102,7 @@ h1 {
 }
 
 .hero {
-  background-image: url(/assets/images/bridge3.jpg);
+  background-image: url(/assets/images/bridge-green.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,21 +199,21 @@ h1 {
 }
 
 .tagline {
-  background: rgba(29,78,62,0.666);
+  /* background: rgba(29,78,62,0.8); */
   font-weight: 500;
   padding: 20px 0;
   text-align: center;
 }
 
 .tagline h2 {
-  color: #fff;
+  color: #1b4e3e;
   font-size: 3.666em;
   margin: 0;
   padding: 0;
 }
 
 .tagline h3 {
-  color: #fff;
+  color: #1b4e3e;
   font-size: 2em;
   margin: 0;
   padding: 10px 0 0 0;

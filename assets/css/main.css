@@ -1,73 +1,39 @@
 body {
-  color: #000000;
-  font-size: 12;
+
 }
 
-.col-sm-12 {
-  background-color: #ededed;
-  font-family: "sans-serif";
-}
-
-.col-sm-12 h1 {
+h1 {
   color: #ededed;
-  font-size: 20;
 }
 
-.col-sm-6 {
-  background-color: #edc97b;
-  font-family:sans-serif;
+h2 {
+
 }
 
-.col-sm-6  h2 {
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
   color: #000000;
-  font-size: 16;
 }
 
-.col-sm-6 {
-  background-color: #ffcc00;
-  font-family:sans-serif;
-}
-
-.col-sm-6  h3 {
-  color: #000000;
-  font-size: 16;
-}
-
-.col-sm-12 {
-  background-color: #336699;
-  font-family: sans-serif;
-}
-
-.col-sm-12  h4 {
-  font-size: 20;
-  color: #2d3235;
-}
-
-.col-sm-4 {
+.blue {
   background-color: #395a6d;
-  font-family: sans-serif;
 }
 
-.col-sm-4    h5 {
-  font-size: 16;
-  color: #000000;
+.yellow {
+  background-color: #edc97b;
 }
 
-.col-sm-4 {
-  background-color: #336699;
-  font-family: sans-serif;
+.med-gray {
+  background-color: #ededed;
 }
 
-.col-sm-4    h5 {
-  font-size: 16;
-  color: #000000;
-}
-.col-sm-4 {
-  background-color: #336699;
-  font-family: sans-serif;
-}
-
-.col-sm-4   h5 {
-  font-size: 16;
-  color: #000000;
+.dark-gray {
+  background-color: #2d3235
 }

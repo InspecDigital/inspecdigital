@@ -1,0 +1,36 @@
+body {
+  color: #000000;
+  font-size: 14px;
+}
+
+h1 {
+  color: #0033cc;
+  font-size: 1.5em;
+}
+
+h2 {
+ color: #000000;
+ font-size: 1.3em;
+}
+
+h3 {
+ color: #000000;
+ font-size: 1.2em;
+}
+
+h4 {
+ font-size: 1.1em;
+ color: #ffff00;
+}
+
+.hero-col {
+  background-color: #ffcc00;
+}
+
+.col-sm-6 {
+  background-color: #ffcc00;
+}
+
+.col-sm-4 {
+  background-color: #336699;
+}

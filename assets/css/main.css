@@ -33,6 +33,15 @@ h5 {
 }
 
 /* style */
+.action {
+  display: block;
+  border: 1px solid #f00;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.5em;
+  color: #666;
+}
 .content {
   padding: 50px 0;
 }
@@ -46,20 +55,29 @@ h5 {
 }
 .jumbotron h1 {
   text-align: center;
+  margin: 40px auto 60px auto;
 }
 .navbar {
   margin-bottom: 0;
   border-bottom: none;
 }
+.navbar-default .navbar-nav>li>a {
+  color: #489a83;
+  font-size: 1.75em;
+  font-weight: 400;
+}
 
 @media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-default .navbar-nav>li>a {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }

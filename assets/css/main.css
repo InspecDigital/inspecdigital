@@ -2,22 +2,6 @@ body {
 
 }
 
-h1 {
-  color: #ededed;
-}
-
-h1 {
-color: #3b657b
-}
-
-h2 {
-color: #f1d83e
-}
-
-h5 {
-  color: #000000;
-}
-
 /* colors */
 .blue {
   background-color: #395a6d;
@@ -39,8 +23,13 @@ h5 {
   margin: 10px;
   padding: 5px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.6em;
   color: #666;
+}
+.blurb {
+  color: #666;
+  font-size: 1.6em;
+  text-align: center;
 }
 .content {
   padding: 50px 0;

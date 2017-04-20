@@ -43,9 +43,9 @@
           </div>
           <div class="collapse navbar-collapse" id="inspec-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li><a href="#">Our Work</a></li>
-              <li><a href="#">About Inspec</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#our-work">Our Work</a></li>
+              <li><a href="#about">About Inspec</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -56,10 +56,15 @@
           <div class="container">
             <h1>Inspec logo</h1>
             <div class="row">
-              <div class="col-sm-6">left</div>
+              <div class="col-sm-6">
+                <div class="blurb">
+                  Inspec Digital is a part of your community.
+                  Together we can create technology for the things that matter.
+                </div>
+              </div>
               <div class="col-sm-6 ">
-                <a class="action">
-                  We can help. Share your situation with us today!
+                <a href="#" class="action">
+                  We can help!<br />Share your situation with us today.
                 </a>
               </div>
             </div>
@@ -68,10 +73,11 @@
       </div>
 
       <div class="content yellow">
+        <a id="our-work"></a>
         <div class="container">
           <div class="row yellow">
             <div class="col-sm-12">
-              <h1>Our Work</h1>
+              <h2>Our Work</h2>
             </div>
           </div>
           <div class="row yellow">
@@ -92,6 +98,7 @@
       </div>
 
       <div class="content blue">
+        <a id="about"></a>
         <div class="container">
           <div class="row blue">
             <div class="col-sm-12">
@@ -111,6 +118,42 @@
               <h4>WHY</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel orci nunc. Nunc facilisis luctus fermentum. Praesent vel volutpat arcu, id fringilla nunc. Ut condimentum nulla at tincidunt consequat. Praesent vestibulum neque at libero lacinia, ac rhoncus augue tristique. Nulla urna diam, elementum at fermentum rhoncus, mollis quis ligula. In congue mollis odio, a malesuada dui. Nulla risus sem, egestas vel dui et, aliquet tincidunt sapien. Aliquam a velit semper, lobortis sem at, dictum risus. Ut pulvinar, felis non rhoncus varius, felis elit suscipit ipsum, at iaculis nisi dui vel metus. Cras tincidunt mi id libero efficitur accumsan. Curabitur cursus lobortis vulputate. Aenean mauris leo, fermentum vitae arcu eu, vestibulum imperdiet massa. Cras hendrerit rutrum dignissim. Suspendisse congue quam lectus, at euismod massa fringilla quis.</p>
             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content contact">
+        <a id="contact"></a>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>Contact</h2>
+              <form class="form-horizontal" action="https://test.org" name="form-contact" id="form-contact">
+                <input type="hidden" name="_subject" value="Inspec contact form submission">
+                <input type="text" name="_gotcha" style="display:none" />
+                <div class="form-group form-group-lg">
+                  <label for="email" class="col-sm-2 control-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" name="email" class="form-control input-lg" id="email" placeholder="" />
+                  </div>
+                </div>
+                <div class="form-group form-group-lg">
+                  <label class="control-label col-sm-2" for="exampleInputPassword1">How can we help?</label>
+                  <div class="col-sm-10">
+                    <textarea name="message" id="message" class="form-control input-lg" rows="3" placeholder=""></textarea>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-sm-offset-2">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <span id="response"></span>
+                </div>
+                <div class="hidden">
+                  <div id="sending"><i class="fa fa-spinner fa-spin fa-fw"></i> sending</div>
+                  <div id="success"><span class="text-success">Thank you. We've received your message and will be in touch shortly.</span></div>
+                  <div id="fail"><span class="text-danger">Uh-oh. Something went wrong and your message wasn't sent.</span></div>
+                </div>
+              </form>
             </div>
           </div>
         </div>

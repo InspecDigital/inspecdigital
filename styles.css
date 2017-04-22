@@ -1,6 +1,6 @@
 .col-sm-12 {
   background-color: #ffcc00;
-  font-family: "sans-serif";
+  font-family: 'Questrial', sans-serif;
   h1 {
     color: #0033cc;
     font-size: 20;
@@ -9,7 +9,7 @@
 
 .col-sm-6 {
   background-color: #ffcc00;
-  font-family:sans-serif;
+  font-family: 'Questrial', sans-serif;
   h2 {
     color: #000000;
     font-size: 16;
@@ -22,7 +22,7 @@
 
 .col-sm-6 {
   background-color: #ffcc00;
-  font-family:sans-serif;
+  font-family: 'Questrial', sans-serif;
   h3 {
     color: #000000;
     font-size: 16;
@@ -35,7 +35,7 @@
 
 .col-sm-12 {
   background-color: #336699;
-  font-family: sans-serif;
+  font-family: 'Questrial', sans-serif;
   h4 {
     font-size: 20;
     color: #ffff00;
@@ -44,7 +44,7 @@
 
 .col-sm-4 {
   background-color: #336699;
-  font-family: sans-serif;
+  font-family: 'Questrial', sans-serif;
     h5 {
       font-size: 16;
       color: #000000;
@@ -57,7 +57,7 @@
 
 .col-sm-4 {
   background-color: #336699;
-  font-family: sans-serif;
+  font-family: 'Questrial', sans-serif;
     h5 {
       font-size: 16;
       color: #000000;
@@ -70,7 +70,7 @@
 
 .col-sm-4 {
   background-color: #336699;
-  font-family: sans-serif;
+  font-family: 'Questrial', sans-serif;
     h5 {
       font-size: 16;
       color: #000000;

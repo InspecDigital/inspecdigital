@@ -2,6 +2,18 @@ body {
 
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Questrial', sans-serif;
+}
+
+h4 {
+  letter-spacing: 0.0666em;
+}
+
+hr {
+  margin: 5em 0 5em 0;
+}
+
 /* colors */
 .blue {
   background-color: #395a6d;
@@ -49,6 +61,12 @@ body {
 .navbar {
   margin-bottom: 0;
   border-bottom: none;
+}
+.navbar a {
+  letter-spacing: 0.05em;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #306756;
 }
 .navbar-default .navbar-nav>li>a {
   color: #489a83;

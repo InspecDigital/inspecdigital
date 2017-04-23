@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Questrial', sans-serif;
 }
 
+h4 {
+  letter-spacing: 0.666em;
+}
+
 .col-sm-12 {
   background-color: #ffcc00;
   font-family: 'Questrial', sans-serif;

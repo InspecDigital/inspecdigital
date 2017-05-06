@@ -20,7 +20,7 @@ $(document).ready(function() {
     var url = $(this).attr('action');
     var rawData = $(this).serializeArray();
     var data = {};
-    var button = $(this).find('button');
+    var button = $(this).find('#button-submit');
     var message = $(this).find('#response');
     var buttonDefaultHTML = button.html();
     var buttonSendingHTML = $(this).find('#sending').html();
@@ -28,6 +28,7 @@ $(document).ready(function() {
     var failMessage = $(this).find('#fail').html();
     var formErrorMessage = '<span class="text-danger">Please fix the form errors and try again.</span>';
     var valid = true;
+    var modal = $(this).find('#contact-modal');
 
     button.prop('disabled', true).html(buttonSendingHTML);
     $.each(rawData, function(i, field) {
@@ -56,10 +57,9 @@ $(document).ready(function() {
         data:data,
         dataType:"json"
       }).done(function(response) {
-        message.html(successMessage);
+        modal.modal('hide');
       }).fail(function(response) {
         message.html(failMessage);
-      }).always(function(response) {
         var fadeOutOptions = {
           duration: 1000,
           complete: function() {

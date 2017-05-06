@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h4 {
+  font-size: 2em;
   letter-spacing: 0.0666em;
 }
 
@@ -71,11 +72,14 @@ a:hover.action, a:focus.action, a:active.action {
   text-align: left;
 }
 .content {
-  padding: 50px 0;
+  padding: 40px 0;
 }
 .footer {
   padding: 50px 0;
   color: #fff;
+}
+.footer a {
+  color: #cd4c71;
 }
 .jumbotron {
   background: #f8f8f8;
@@ -114,6 +118,7 @@ a:hover.action, a:focus.action, a:active.action {
   .img-hero {
     max-width: 640px;
     margin: auto;
+    margin-bottom: 40px;
   }
   .navbar .navbar-nav {
     display: inline-block;

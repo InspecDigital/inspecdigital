@@ -66,7 +66,7 @@ a:hover.action, a:focus.action, a:active.action {
   line-height: 1.5em;
 }
 .blurb {
-  color: #333;
+  color: #444;
   font-family: 'Questrial', sans-serif;
   font-size: 1.4em;
   text-align: left;
@@ -92,6 +92,7 @@ a:hover.action, a:focus.action, a:active.action {
 .navbar {
   margin-bottom: 0;
   border-bottom: none;
+  padding-top: 10px;
 }
 .navbar a {
   letter-spacing: 0.05em;
@@ -115,6 +116,9 @@ a:hover.action, a:focus.action, a:active.action {
 }
 
 @media (min-width: 768px) {
+  .content {
+    padding: 10px 0;
+  }
   .img-hero {
     max-width: 640px;
     margin: auto;

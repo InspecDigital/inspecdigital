@@ -36,20 +36,33 @@ hr {
 .action {
   display: block;
   border: 2px solid #cd4c71;
+  font-family: 'Questrial', sans-serif;
   margin: 10px;
   padding: 5px;
   text-align: center;
-  font-size: 1.6em;
-  color: #666;
+  font-size: 1.8em;
+  color: #333;
 }
+a:hover.action, a:focus.action, a:active.action {
+    color: #cd4c71;
+    text-decoration: none;
+}
+/*a:visited.action {
+  color: #333;
+  text-decoration: none;
+} */
 .announcement-bar {
   background: #3e596c;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 200;
-  letter-spacing: .15em;
+  letter-spacing: .1em;
   padding: 6px 0;
   text-align: center;
+}
+.blue p {
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 .blurb {
   color: #333;
@@ -89,7 +102,7 @@ hr {
   visibility: visible;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #306756;
+  color: #cd4c71;
 }
 .navbar-default .navbar-nav>li>a {
   color: #489a83;

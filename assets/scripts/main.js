@@ -4,11 +4,18 @@
 
 $(document).ready(function() {
 
+  $('#nav-primary').find('a').on({
+    mouseenter : function() {
+      $(this).find('i').addClass('visible');
+    },
+    mouseleave : function() {
+      $(this).find('i').removeClass('visible');
+    }
+  });
+
   $('#form-contact').on('submit', function(e) {
 
     e.preventDefault();
-
-    console.log('submit');
 
     var url = $(this).attr('action');
     var rawData = $(this).serializeArray();

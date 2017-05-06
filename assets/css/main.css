@@ -79,6 +79,15 @@ hr {
 .navbar a {
   letter-spacing: 0.05em;
 }
+.navbar a i {
+  font-size: .5em;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.navbar a i.visible {
+  visibility: visible;
+}
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: #306756;
 }

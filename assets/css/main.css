@@ -98,6 +98,10 @@ hr {
 }
 
 @media (min-width: 768px) {
+  .img-hero {
+    max-width: 640px;
+    margin: auto;
+  }
   .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -109,5 +113,8 @@ hr {
   .navbar-default .navbar-nav>li>a {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .navbar-nav>li {
+    left: -10px;
   }
 }

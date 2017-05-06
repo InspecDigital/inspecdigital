@@ -38,6 +38,15 @@ hr {
   font-size: 1.6em;
   color: #666;
 }
+.announcement-bar {
+  background: #3e596c;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 200;
+  letter-spacing: .15em;
+  padding: 6px 0;
+  text-align: center;
+}
 .blurb {
   color: #666;
   font-size: 1.6em;

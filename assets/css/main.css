@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Questrial', sans-serif;
 }
 
+h3 {
+  font-size: 26px;
+}
+
 h4 {
   font-size: 2em;
   letter-spacing: 0.0666em;
@@ -13,11 +17,11 @@ h4 {
 
 p {
     font-family: 'Questrial', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 hr {
-  margin: 5em 0 5em 0;
+  margin: 2em 0 4em 0;
 }
 
 /* colors */
@@ -39,10 +43,10 @@ hr {
   display: block;
   border: 2px solid #cd4c71;
   font-family: 'Questrial', sans-serif;
-  margin: 10px;
-  padding: 5px;
+  margin: 24px 12px 12px 12px;
+  padding: 6px;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.4em;
   color: #333;
 }
 a:hover.action, a:focus.action, a:active.action {
@@ -63,17 +67,21 @@ a:hover.action, a:focus.action, a:active.action {
   text-align: center;
 }
 .blue p {
-  font-size: 1.1em;
+  font-size: 1em;
+  letter-spacing: 0.025em;
   line-height: 1.5em;
 }
 .blurb {
   color: #444;
   font-family: 'Questrial', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-align: left;
 }
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  margin-bottom: 30px;
+}
 .content {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 .footer {
   padding: 50px 0;
@@ -90,6 +98,28 @@ a:hover.action, a:focus.action, a:active.action {
   text-align: center;
   margin: 40px auto 60px auto;
 }
+
+/* CONTACT FORM */
+.modal-content {
+  border-radius: 0px;
+}
+.modal-header, .modal-footer {
+  border: none;
+}
+.modal-title {
+  letter-spacing: 0.005em;
+}
+.btn-primary, .btn-primary:hover, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+  background-color: #fff;
+  border-color: #cd4c71;
+  color: #2d3234;
+}
+.text-danger {
+  color: #cd4c71;
+  font-size: 0.666em;
+}
+/* end CONTACT FORM */
+
 .navbar {
   margin-bottom: 0;
   border-bottom: none;
@@ -107,6 +137,23 @@ a:hover.action, a:focus.action, a:active.action {
 .navbar a i.visible {
   visibility: visible;
 }
+.navbar-nav {
+  text-align: right;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #376854;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #376854;
+}
+.navbar-toggle {
+  border-radius: 0px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #89ceb4;
+}
+
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: #cd4c71;
 }
@@ -117,13 +164,26 @@ a:hover.action, a:focus.action, a:active.action {
 }
 
 @media (min-width: 768px) {
+
+  h3 {
+    font-size: 28px;
+  }
+  .action {
+    margin: 0;
+  }
+  .blue p {
+    font-size: 16px;
+    letter-spacing: 0.015em;
+    line-height: 1.35em;
+  }
   .content {
     padding: 10px 0 50px 0;
   }
   .img-hero {
     max-width: 640px;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
   }
   .navbar .navbar-nav {
     display: inline-block;
@@ -139,5 +199,8 @@ a:hover.action, a:focus.action, a:active.action {
   }
   .navbar-nav>li {
     left: -10px;
+  }
+  .yellow p {
+    font-size: 17px;
   }
 }

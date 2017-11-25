@@ -13,15 +13,24 @@ h3 {
 h4 {
   font-size: 2em;
   letter-spacing: 0.0666em;
+  padding-top: 20px;
 }
 
 p {
     font-family: 'Questrial', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.5em;
 }
 
 hr {
   margin: 2em 0 4em 0;
+}
+
+ul {
+  color: #ebdc41;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  margin: 0 40px 10px 0;
 }
 
 /* colors */
@@ -63,19 +72,19 @@ a:hover.action, a:focus.action, a:active.action {
   font-size: 1em;
   font-weight: 200;
   letter-spacing: .1em;
-  padding: 6px 0;
+  padding: 6px;
   text-align: center;
 }
 .blue p {
-  font-size: 1em;
+  font-size: 1.2em;
   letter-spacing: 0.025em;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 .blurb {
   color: #444;
   font-family: 'Questrial', sans-serif;
-  font-size: 1.2em;
-  text-align: left;
+  font-size: 1.4em;
+  text-align: center;
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
   margin-bottom: 30px;
@@ -83,6 +92,11 @@ a:hover.action, a:focus.action, a:active.action {
 .content {
   padding: 20px 0;
 }
+
+.creativecommons {
+  padding-top: 20px;
+}
+
 .footer {
   padding: 50px 0;
   color: #fff;
